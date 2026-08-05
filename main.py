@@ -21,7 +21,7 @@ logging.getLogger("pyrogram.session.session").setLevel(logging.WARNING)
 # ==========================================
 # КОНФИГУРАЦИЯ И БАЗА ДАННЫХ
 # ==========================================
-BASE_URL = "https://твой-адрес.trycloudflare.com"
+BASE_URL = "https://tg-panel-production.up.railway.app/"
 
 if not BASE_URL.startswith("https://"):
     print("[!] ВНИМАНИЕ: BASE_URL не задан или не использует HTTPS (WebApp в Telegram может не открываться).")
